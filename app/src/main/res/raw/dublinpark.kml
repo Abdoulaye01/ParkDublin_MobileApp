@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Streetview_Link" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+
+
+  <Placemark>
+
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+
+	</SchemaData></ExtendedData>
+	<description><![CDATA[
+
+          <h3>Parnell Street Car Park</h3>
+
+         <span style='color:red'>€3.50 per hour,</span>
+         <span>Phone No: +353(1)8722423</span>
+
+        ]]></description>
+      <Point><coordinates>-6.263150,53.351879</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+	<name>Dublin Town:Fleet Car Park</name>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">2</SimpleData>
+
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-6.260580,53.345749</coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+  	<name>Dublin Town:Ilac Car Park</name>
+  	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+  		<SimpleData name="OBJECTID">3</SimpleData>
+
+  	</SchemaData></ExtendedData>
+        <Point><coordinates>-6.28695152967655,53.35619165</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+      	<name>Dublin Town:Arnotts Car park</name>
+      	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+      		<SimpleData name="OBJECTID">4</SimpleData>
+
+      	</SchemaData></ExtendedData>
+            <Point><coordinates>-6.255626164682003,53.346263050000005</coordinates></Point>
+        </Placemark>
+
+         <Placemark>
+              	<name>Dublin Town:Jervis Car park</name>
+              	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+              		<SimpleData name="OBJECTID">5</SimpleData>
+
+              	</SchemaData></ExtendedData>
+
+                    <Point><coordinates>-6.26632,53.34714</coordinates></Point>
+         </Placemark>
+
+     <Placemark>
+             <name>Dublin Town:Brown Thomas Car park</name>
+              <ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+             <SimpleData name="OBJECTID">6</SimpleData>
+
+            </SchemaData></ExtendedData>
+             <Point><coordinates>-6.261422,53.3419022</coordinates></Point>
+     </Placemark>
+  <Placemark>
+              <name>Dublin Town:Stephen Green Car park</name>
+               <ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+              <SimpleData name="OBJECTID">7</SimpleData>
+
+             </SchemaData></ExtendedData>
+              <Point><coordinates>-6.263466,53.3396444</coordinates></Point>
+      </Placemark>
+
+  
+  </Folder>
+</Document>
+</kml>
